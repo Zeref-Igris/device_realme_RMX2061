@@ -125,6 +125,9 @@ telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
 persist.sys.fflag.override.settings_provider_model=false
 
+# Render
+debug.cpurend.vsync=false
+
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
