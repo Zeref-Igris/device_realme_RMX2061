@@ -16,3 +16,6 @@ ro.config.low_ram=false
 
 # Incremental FS
 ro.incremental.enable=1
+
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
