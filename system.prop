@@ -65,6 +65,12 @@ vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
 # DPM
 persist.dpm.feature=1
 
+# Iorapd
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # GBoard
 ro.com.google.ime.kb_pad_port_l=6
 ro.com.google.ime.kb_pad_port_r=6
