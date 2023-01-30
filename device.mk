@@ -276,6 +276,12 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Overlays RRO
+PRODUCT_PACKAGES += \
+   ApertureOverlay \
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Perfd
 PRODUCT_PACKAGES += \
     libqti-perfd-client
