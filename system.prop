@@ -145,6 +145,3 @@ debug.media.transcoding.codec_max_operating_rate_1080P=120
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
-
-# Zygote preforking
-persist.device_config.runtime_native.usap_pool_enabled=true
