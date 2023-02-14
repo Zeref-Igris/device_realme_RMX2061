@@ -126,6 +126,10 @@ telephony.lteOnCdmaDevice=1
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
