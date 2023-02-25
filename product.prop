@@ -2,6 +2,8 @@
 ro.charger.enable_suspend=true
 
 # Display
+debug.sf.hw=0
+debug.egl.hw=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
 vendor.display.disable_excl_rect=0
