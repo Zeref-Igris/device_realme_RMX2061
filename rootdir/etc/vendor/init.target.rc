@@ -135,6 +135,9 @@ on boot
 # to hide Magisk & co.
     chmod 440 /proc/net/unix    
 
+# Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 # Add a cpuset for the camera daemon
 # We want all cores for camera
     mkdir /dev/cpuset/camera-daemon
