@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2061.mk
+    $(LOCAL_DIR)/derp_RMX2061.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX2061-user \
-    lineage_RMX2061-userdebug \
-    lineage_RMX2061-eng 
+    derp_RMX2061-user \
+    derp_RMX2061-userdebug \
+    derp_RMX2061-eng 
