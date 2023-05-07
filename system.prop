@@ -48,6 +48,9 @@ vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
 # DPM
 persist.dpm.feature=1
 
+# Initialize QCA1530 detection
+sys.qca1530=detect
+
 # Iorapd
 ro.iorapd.enable=false
 iorapd.perfetto.enable=false
