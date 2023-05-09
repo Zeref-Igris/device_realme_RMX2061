@@ -13,6 +13,7 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
+persist.vendor.btstack.enable.lpa?=true
 
 # Set the Bluetooth Class of Device
 # Service Field: 0x5A -> 90
