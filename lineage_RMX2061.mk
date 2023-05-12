@@ -13,16 +13,20 @@ $(call inherit-product, vendor/realme/hotword/google.mk)
 # DerpFest Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
-DERP_BUILDTYPE := Official
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-USE_LEGACY_BOOTANIMATION := false
+TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_ENABLE_PIXEL_GBOARD_PADDINGS := false
+TARGET_DISABLE_EPPE := true
+TARGET_CORE_GMS := false
 
 # Inherit some common stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := derp_RMX2061
+PRODUCT_NAME := lineage_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX2061
