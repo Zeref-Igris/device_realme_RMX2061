@@ -25,6 +25,9 @@
    <!-- the padding on the top of the statusbar -->
     <dimen name="status_bar_padding_top">8dp</dimen>
 
+    <!-- the override for padding on the top of the statusbar (recommended to avoid clip/alignment issues) -->  
+    <dimen name="status_bar_padding_top_insets">8dp</dimen>
+
     <!-- Starting padding for a left-aligned status bar clock -->
     <dimen name="status_bar_left_clock_starting_padding">6px</dimen>
 
