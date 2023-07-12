@@ -11,12 +11,15 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 $(call inherit-product, vendor/realme/hotword/google.mk)
 
 # ROM Flags
-TARGET_BOOT_ANIMATION_RES := 1080
+SUSHI_BOOTANIMATION := 1080
 WITH_GMS := true
+TARGET_USE_PIXEL_FINGERPRINT := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_DISABLE_EPPE := true
+RISING_MAINTAINER := Arpan
+RISING_CHIPSET := Snapdragon 720G
 
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
