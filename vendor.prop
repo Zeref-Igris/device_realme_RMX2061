@@ -236,3 +236,6 @@ vendor.usb.use_gadget_hal=0
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# Cache
+debug.sf.disable_client_composition_cache=1
