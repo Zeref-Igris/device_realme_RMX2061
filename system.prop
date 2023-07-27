@@ -31,7 +31,7 @@ debug.hwui.skia_atrace_enabled=false
 dalvik.vm.dexopt.secondary=true
 
 # Disable remote keyguard animation
-persist.wm.enable_remote_keyguard_animation=0
+# persist.wm.enable_remote_keyguard_animation=0
 
 # Display
 debug.sf.disable_backpressure=1
