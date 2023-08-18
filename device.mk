@@ -443,6 +443,9 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
+# Battery
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.battery.defender.disable=0
+
 #PRODUCT_BOOT_JARS += \
     WfdCommon
 
