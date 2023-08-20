@@ -135,6 +135,7 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.disable_ubwc=0
 ro.launcher.blur.appLaunch=0
 debug.sf.enable_egl_image_tracker=1
+persist.vendor.camera.perflock.enable=0
 
 # Touch Hax 
 touch.size.scale=1
