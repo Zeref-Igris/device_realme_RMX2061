@@ -33,6 +33,20 @@ dalvik.vm.dexopt.secondary=true
 # Disable remote keyguard animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1
+
+# Radio Powersaving
+persist.radio.add_power_save=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+power.saving.mode=1
+
 # Display
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
