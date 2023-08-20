@@ -30,6 +30,9 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# VNDK
+PRODUCT_PRODUCT_VNDK_VERSION := current    
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
