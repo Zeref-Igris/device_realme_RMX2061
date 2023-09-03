@@ -7,6 +7,7 @@ debug.egl.hw=0
 debug.mdpcomp.logs=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
+vendor.gralloc.disable_ahardware_buffer=1
 vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.comp_mask=0
