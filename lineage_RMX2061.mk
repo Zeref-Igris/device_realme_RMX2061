@@ -10,12 +10,20 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 # Hotword
 $(call inherit-product, vendor/realme/hotword/google.mk)
 
-# ROM Flags
+# Rising-OS Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GMS := true
+TARGET_CORE_GMS := false
+TARGET_ENABLE_BLUR := false
+TARGET_HAS_UDFPS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+RISING_PACKAGE_TYPE := "AOSP"
+
+# Device Flags
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_DISABLE_EPPE := true
 
 # Inherit some common stuff

@@ -74,4 +74,6 @@ void check_nfc_support()
 void vendor_load_properties()
 {
     check_nfc_support();
+    property_override("ro.rising.chipset", "Snapdragon 720G");
+    property_override("ro.rising.maintainer", "Neel x Arpan");
 }
